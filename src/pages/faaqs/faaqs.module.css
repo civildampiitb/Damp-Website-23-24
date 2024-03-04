@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.faqs_main{
+    margin: 2%;
+    padding: 2%;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 2vh;
+    background-color: #E0E5EC;
+    box-shadow:  8px 8px 16px #979da7, -8px -8px 16px #ffffff;  
+}
+
+.faqs_main_text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600    ;
+    font-size: 1.4rem;
+}
+
+.faqs_list {
+    margin-top: 1%;
+}
+
+.faqs_underline{
+    border-bottom: 0.2px solid #983939;
+    margin-top: 1%;
+}
+
+.faqs_list li{
+    list-style-type: none;
+    padding: 1%;
+}
+
+.faqs_question_text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqs_answer{
+    margin-top: 1%; 
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.faqs_home_main {
+    margin-top: 7%;
+    width: 100%;
+    padding: 3%;
+    border-radius: 2vh;
+    background-color: #E0E5EC;
+    box-shadow:  8px 8px 16px #979da7, -8px -8px 16px #ffffff;
+}
+

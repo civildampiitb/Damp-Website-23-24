@@ -1,0 +1,113 @@
+.international_main {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff; 
+    padding: 2%;
+    padding-top: 0%;
+    
+}
+
+.international_main_heading {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 3rem;
+    font-weight: 600;
+    background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.international_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f2f1; 
+    border-radius: 10px;
+    padding: 16px;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), 
+                -4px -4px 8px rgba(255, 255, 255, 0.747); 
+}
+
+.international_details_img img {
+    height: 30vh;
+    width: 50vh;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.international_details_text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #555; /* Light gray text color */
+}
+
+/* Add hover effect for better user interaction */
+.international_details:hover {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), 
+                -8px -8px 16px rgba(255, 255, 255, 0.8); /* Adjust as needed */
+}
+
+
+/* RishiBLog */
+
+.rishiblog_main {
+    padding: 5%;
+    padding-top: 1%;
+    text-align: justify;
+}
+
+.rishiblog_main p {
+    padding-top: 1%;
+}
+
+.rishiblog_main h2 {
+    padding-top: 2%;
+}
+
+.rishiblog_main ul{
+    padding-top: 1%;
+    padding-left: 4%;
+}
+
+.rishiblog_img {
+    margin-top: 2%;
+}
+
+.rishiblog_img img {
+    height: auto;
+    width: 70%;
+}
+
+/* Aditya Blog */
+
+.aditya_main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ShashankBlog */
+
+.shashankBlog_main {
+    padding: 5%;
+    padding-top: 1%;
+    text-align: justify;
+}
+
+.shashankBlog_main p{
+    padding-top: 1%;
+}
+
+.shashankBlog_main h2 {
+    margin-top: 2%;
+}
+
+
+

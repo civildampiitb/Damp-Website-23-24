@@ -1,0 +1,83 @@
+/* body {
+    overflow: hidden;
+} */
+
+.course_main {
+    display: flex;
+}
+
+.courseName{
+    overflow-y: auto; 
+    width: 20%;
+    height: 90vh; 
+    border: 1px solid #ccc; 
+}
+.review_container {
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+    height: 90vh; 
+    padding: 2%;
+    padding-top: 1%;
+    border: 1px solid #ccc;
+}
+
+
+
+/* coursename container  */
+
+
+.courseName {
+    padding-top: 1%;
+    background-color: #FFFDFA;
+}
+
+.course_data {
+    margin-left: 10%;
+}
+
+.course_line {
+    height: 1.6px;
+    width: 90%;
+    margin-top: 1.5%;
+    background-color: #EDEBE7;
+}
+
+.course_data p {
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.course_data ul {
+    margin-left: 2%;
+}
+
+.course_data ul li{
+    list-style-type: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #7E7F7D;
+    padding-top: 5%;
+}
+
+/* review container */
+
+
+.coursereview_main_heading {
+    font-size: 2.3rem;
+    font-weight: 600;
+    background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.review_course_code {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.review_a p {
+    margin-top: 1%;
+}
+

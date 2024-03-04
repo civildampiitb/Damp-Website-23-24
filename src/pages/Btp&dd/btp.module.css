@@ -1,0 +1,112 @@
+.btpdd_main {
+    background-color: #fff; 
+    padding: 2%; 
+}
+
+.btpdd_main_a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btpdd_main_heading {
+    font-size: 3rem;
+    font-weight: 600;
+    background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.btpdd_details {
+    margin-top: 3%;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(182, 225, 222);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), 
+                -4px -4px 8px rgba(255, 255, 255, 0.747);   
+}
+
+.btpdd_details_img img{
+    height: 30vh;
+    width: 40vh;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btpdd_details_text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+}
+
+.btpdd_details:hover {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2), 
+                -8px -8px 16px rgba(255, 255, 255, 0.8); 
+}
+
+
+/* Alakhblog */
+
+.alakhblog_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: justify;
+}
+
+/* PraptiBlog  */
+
+.praptiblog {
+    padding: 5%;
+    padding-top: 1%;
+}
+
+.praptiblog p {
+    padding-top: 1%;
+}
+
+.praptiblog h2 {
+    margin-top: 2%;
+}
+
+/* Swatiblog */
+
+.swatiblog_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Ishitablog */
+
+.ishita_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Pintu Blog */
+
+.pintu_main {
+    padding: 5%;
+    padding-top: 1%;
+    text-align: justify;
+}
+
+.pintu_main h2 {
+    padding-top: 2%;
+}
+
+.pintu_main p {
+    padding-top: 1%;
+}
