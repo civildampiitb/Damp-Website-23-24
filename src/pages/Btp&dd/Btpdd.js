@@ -2,8 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./btp.module.css";
 import Fake from "../../assets/fake.jpg";
-import PintuImage from "../../assets/pintu.jpg"
-
+import PintuImage from "../../assets/pintu.jpg";
 
 const Btpdd = () => {
   const Navigate = useNavigate();
@@ -34,7 +33,7 @@ const Btpdd = () => {
           </div>
           <p className={style.btpdd_details_text}>Prapti Sao(Transport)</p>
         </div>
-        <div onClick={handleAlakhBlog} className={style.btpdd_details}>
+        {/* <div onClick={handleAlakhBlog} className={style.btpdd_details}>
           <div className={style.btpdd_details_img}>
             <img src={Fake} alt="photoof" />
           </div>
@@ -44,18 +43,18 @@ const Btpdd = () => {
           >
             Alakh Agarwal(AI/ML)<p>Swasti Pahuja(AI/ML)</p>
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className={style.btpdd_main_a}>
-        <div onClick={handleIshitaBlog} className={style.btpdd_details}>
+        {/* <div onClick={handleIshitaBlog} className={style.btpdd_details}>
           <div className={style.btpdd_details_img}>
             <img src={Fake} alt="photoof" />
           </div>
           <p className={style.btpdd_details_text}>
             Ishit Garg(Transport AI/ML)
           </p>
-        </div>
+        </div> */}
         <div onClick={handlePintuBlog} className={style.btpdd_details}>
           <div className={style.btpdd_details_img}>
             <img src={PintuImage} alt="photoof" />

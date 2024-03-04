@@ -78,7 +78,7 @@ const Coursename = () => {
           </ul>
         </div>
         <div className={style.course_data}>
-          <p>Fourth course</p>
+          <p>Fourth Year Course</p>
           <div className={style.course_line}></div>
           <ul>
             {FourthCourse.map((review, index) => {

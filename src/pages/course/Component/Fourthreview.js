@@ -7,16 +7,16 @@ import OneCourseDefaultData from "../../../data/CourseReviewData/Default";
 const Coursename = () => {
   const uniqueCourseCodes = new Set();
 
-  const [selectedCourse, setSelectedCourse] = useState(FourthCourse[0]["Course Code"]);
+  const [selectedCourse, setSelectedCourse] = useState(
+    FourthCourse[0]["Course Code"]
+  );
 
   const handleCourseCodeClick = (courseCode) => {
     setSelectedCourse(courseCode);
   };
 
   const getCourseData = () => {
-    const allCourses = [
-      ...FourthCourse
-    ];
+    const allCourses = [...FourthCourse];
     return allCourses.filter(
       (review) => review["Course Code"] === selectedCourse
     );
@@ -26,7 +26,7 @@ const Coursename = () => {
     <div className={style.course_main}>
       <div className={style.courseName}>
         <div className={style.course_data}>
-          <p>Fourth course</p>
+          <p>Fourth Year Courses</p>
           <div className={style.course_line}></div>
           <ul>
             {FourthCourse.map((review, index) => {
@@ -47,7 +47,7 @@ const Coursename = () => {
           </ul>
         </div>
       </div>
-      
+
       <div className={style.review_container}>
         <CourseReview selectedCourse={getCourseData(OneCourseDefaultData)} />
       </div>
