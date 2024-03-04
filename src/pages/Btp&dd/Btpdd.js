@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./btp.module.css";
+import stylee from "../InternationExposer/internation.module.css";
+
 import Fake from "../../assets/fake.jpg";
 import PintuImage from "../../assets/pintu.jpg";
 
@@ -25,25 +27,22 @@ const Btpdd = () => {
 
   return (
     <div className={style.btpdd_main}>
-      <p className={style.btpdd_main_heading}>B.Tech Project</p>
-      <div className={style.btpdd_main_a}>
+      <p className={`${stylee.international_main_heading} text-center`}>
+        B.Tech Project
+      </p>
+      <div className={stylee.international_main}>
         <div onClick={handlePraptiBlog} className={style.btpdd_details}>
           <div className={style.btpdd_details_img}>
             <img src={Fake} alt="photoof" />
           </div>
           <p className={style.btpdd_details_text}>Prapti Sao(Transport)</p>
         </div>
-        {/* <div onClick={handleAlakhBlog} className={style.btpdd_details}>
+        <div onClick={handlePintuBlog} className={style.btpdd_details}>
           <div className={style.btpdd_details_img}>
-            <img src={Fake} alt="photoof" />
+            <img src={PintuImage} alt="photoof" />
           </div>
-          <p
-            className={style.btpdd_details_text}
-            style={{ fontSize: "0.8rem" }}
-          >
-            Alakh Agarwal(AI/ML)<p>Swasti Pahuja(AI/ML)</p>
-          </p>
-        </div> */}
+          <p className={style.btpdd_details_text}>Pintu Kumar Saw(Geotech)</p>
+        </div>
       </div>
 
       <div className={style.btpdd_main_a}>
@@ -55,12 +54,12 @@ const Btpdd = () => {
             Ishit Garg(Transport AI/ML)
           </p>
         </div> */}
-        <div onClick={handlePintuBlog} className={style.btpdd_details}>
+        {/* <div onClick={handlePintuBlog} className={style.btpdd_details}>
           <div className={style.btpdd_details_img}>
             <img src={PintuImage} alt="photoof" />
           </div>
           <p className={style.btpdd_details_text}>Pintu Kumar Saw(Geotech)</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
