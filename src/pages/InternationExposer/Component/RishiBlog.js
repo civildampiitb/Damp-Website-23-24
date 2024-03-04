@@ -6,19 +6,21 @@ import style from "../internation.module.css";
 const RishiBlog = () => {
   return (
     <div className={style.rishiblog_main}>
-      <h1>Bridging the Gap Between Civil Engineering and AI</h1>
-      <div className={style.rishiblog_img}>
-        <img src={Rishi} alt="rishiphoto" />
+      <h1 className="text-4xl font-semibold text-center py-4">
+        Bridging the Gap Between Civil Engineering and AI
+      </h1>
+      <div className="py-4 flex flex-row items-center justify-center">
+        <img src={Rishi} alt="rishiphoto" className="rounded-md" />
       </div>
-      <p>
+      <p className="text-lg">
         I'm Rishi Tunuguntla, a final-year Civil Engineering undergrad. Last
         summer, I interned at the Hong Kong University of Science and
         Technology. In this article, I'll briefly share my journey to securing
         this opportunity and my enriching two-month experience there.
       </p>
 
-      <h2>Starting the Journey</h2>
-      <p>
+      <h2 className="text-xl font-semibold">Starting the Journey</h2>
+      <p className="text-lg">
         In my third year, I was in the dark about my career direction. I was
         also dipping my toes into a minor in C-MInDS. But something clicked for
         me halfway through. That is how much the local construction industries
@@ -27,8 +29,8 @@ const RishiBlog = () => {
         Conversations with my Civil Engineering professors further fueled this
         desire.
       </p>
-      <h2>The Hunt for Opportunities</h2>
-      <p>
+      <h2 className="text-xl font-semibold">The Hunt for Opportunities</h2>
+      <p className="text-lg">
         As the 5th semester ended, I dove into the application process. It was
         late November, just after my exams. Here's a piece of advice: start as
         early as possible. As most of the deadlines for the programs were
@@ -36,19 +38,19 @@ const RishiBlog = () => {
         directly.
       </p>
 
-      <p>
+      <p className="text-lg">
         The key to finding a suitable supervisor is identifying your interests.
         Mine were structural engineering and AI. Once I pinpointed the
         professors in these niches, I sent them concise, impactful emails.
       </p>
 
-      <p>
+      <p className="text-lg">
         The process varies from one university to another. Some might require
         interviews, others could ask for assignments or research proposals.
       </p>
-      <h3>Here are a few tips:</h3>
-
-      <ul>
+      <br></br>
+      <h3 className="text-xl font-semibold">Here are a few tips:</h3>
+      <ul className="text-lg">
         <li>
           <strong>Research:</strong> Use platforms like Google Scholar to find
           relevant labs and supervisors.
@@ -68,19 +70,19 @@ const RishiBlog = () => {
         </li>
       </ul>
 
-      <p>
+      <p className="text-lg">
         <strong>Pro Tip:</strong> A well-crafted email can go a long way. I
         spent 6-7 hours per professor, ensuring I understood their work. This
         effort paid off with an 80% response rate. Although I started late, I
         still managed to get responses from several potential supervisors.
       </p>
-      <p>
+      <p className="text-lg">
         Despite a late start, I secured offers from universities like ULisboa,
         Duke, Insa Lyon, and HKUST. I chose HKUST due to its alignment with my
         interests and funding situation.
       </p>
-      <h2>The Hong Kong Experience</h2>
-      <p>
+      <h2 className="text-xl font-semibold">The Hong Kong Experience</h2>
+      <p className="text-lg">
         My research journey at HKUST was a deep dive into the innovative world
         of Civil Engineering and AI, specifically focusing on crack segmentation
         in self-healing concrete and the predictive analysis of SHCC
@@ -88,8 +90,8 @@ const RishiBlog = () => {
         offered a unique challenge at the crossroads of traditional civil
         engineering and cutting-edge artificial intelligence.
       </p>
-      <h2>The Research Focus</h2>
-      <p>
+      <h2 className="text-xl font-semibold">The Research Focus</h2>
+      <p className="text-lg">
         The core of my work involved understanding and predicting the behavior
         of self-healing concrete. This futuristic material can repair its own
         cracks, a significant advancement in construction technology. My role
@@ -99,8 +101,8 @@ const RishiBlog = () => {
         mechanical properties, which are crucial for ensuring safety and
         durability in construction.
       </p>
-      <h2>The Lab Experience</h2>
-      <p>
+      <h2 className="text-xl font-semibold">The Lab Experience</h2>
+      <p className="text-lg">
         The labs at HKUST were state-of-the-art and equipped with the latest
         technology. Here, I spent countless hours, sometimes even overnight,
         meticulously testing and refining our models. The work was hands-on; I
@@ -114,19 +116,19 @@ const RishiBlog = () => {
         sense of camaraderie among us.
       </p>
 
-      <h2>Beyond the Lab</h2>
-      <p>
+      <h2 className="text-xl font-semibold">Beyond the Lab</h2>
+      <p className="text-lg">
         But my experience at HKUST wasn't confined to the lab. The campus,
         situated by the picturesque South China Sea, was a source of constant
         awe. The environment was an ideal blend of natural beauty and academic
         vigor, inspiring me daily.
       </p>
-      <div className={style.rishiblog_img}>
-        <img src={RishiBeyond} alt="rishiphoto" />
-        <p>This is the view from my room.</p>
+      <div className="flex flex-col py-4 items-center justify-center">
+        <img src={RishiBeyond} alt="rishiphoto" className="rounded-md" />
+        <p className="text-lg font-medium">This is the view from my room</p>
       </div>
 
-      <p>
+      <p className="text-lg">
         Apart from academics, I had the chance to immerse myself in the local
         culture. I ventured out into the city, experiencing everything from the
         bustling markets of Mong Kok to serene temple visits. Learning Cantonese
@@ -136,8 +138,8 @@ const RishiBlog = () => {
       </p>
 
       {/* Transformative Experience Section */}
-      <h2>A Transformative Experience</h2>
-      <p>
+      <h2 className="text-xl font-semibold">A Transformative Experience</h2>
+      <p className="text-lg">
         As my time at HKUST drew close, I realized how transformative this
         experience had been. It wasn't just the technical skills and research
         insights I gained; it was also about personal growth and cultural
@@ -145,15 +147,15 @@ const RishiBlog = () => {
         diversity of experiences profoundly impacted me as a student and
         individual.
       </p>
-      <h2>Reflections and Looking Ahead</h2>
-      <p>
+      <h2 className="text-xl font-semibold">Reflections and Looking Ahead</h2>
+      <p className="text-lg">
         This journey has been more than just academic growth. It's been about
         personal development, cultural immersion, and pushing boundaries. As for
         the future, I'm keeping an open mind. I'm intrigued by the possibilities
         of further integrating technology into construction and am considering a
         master's degree to deepen my understanding.
       </p>
-      <p>
+      <p className="text-lg">
         In conclusion, if you're contemplating a research internship, remember
         to research thoroughly, communicate effectively, and be open to new
         experiences. It's an adventure of a lifetime!

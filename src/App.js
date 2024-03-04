@@ -78,7 +78,7 @@ function App() {
             <Route exact path="/rishiblog" element={<RishiBlog />} />
             <Route
               exact
-              path="/internationexposer"
+              path="/international-exposure"
               element={<InternationExposer />}
             />
           </Routes>

@@ -154,7 +154,7 @@ const Navbar = () => {
           }`}
         >
           <a href="https://civildampiitb.github.io/#/btr&dd">BTP & DD</a>
-          <a href="https://civildampiitb.github.io/#/internationexposer">
+          <a href="https://civildampiitb.github.io/#/international-exposure">
             International Exposure
           </a>
           <a href="https://civildampiitb.github.io/#/higherstudies">

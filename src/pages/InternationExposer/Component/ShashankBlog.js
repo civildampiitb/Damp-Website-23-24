@@ -1,12 +1,17 @@
 import React from "react";
-import style from "../internation.module.css"
+import style from "../internation.module.css";
 
 const ShashankBlog = () => {
   return (
     <div className={style.shashankBlog_main}>
+      <h1 className="text-4xl font-semibold text-center py-6">
+        Seismic Design Competition 2023
+      </h1>
       {/* Introduction */}
-      <h1>My Journey with the IITB Seismic Team</h1>
-      <p>
+      <h1 className="text-xl font-semibold">
+        My Journey with the IITB Seismic Team
+      </h1>
+      <p className="text-lg">
         I am Shashank Nyol, a fourth-year dual degree student with
         specialization in Structural Engineering. I was the captain of IITB
         Seismic Team which participated in the Seismic Design Competition 2023
@@ -16,8 +21,8 @@ const ShashankBlog = () => {
       </p>
 
       {/* Journey Through the Team */}
-      <h2>My Journey Through the Team</h2>
-      <p>
+      <h2 className="text-xl font-semibold">My Journey Through the Team</h2>
+      <p className="text-lg">
         I joined the team when I was in 3rd semester. I got to know about the
         recruitment information through email, which mentioned about the
         competition briefly and how the IIT Bombay won “The Spirit of the
@@ -29,7 +34,7 @@ const ShashankBlog = () => {
         opportunity knocking at my door! And in response, I didn’t hesitate to
         express my interest.
       </p>
-      <p>
+      <p className="text-lg">
         Since, there were no formal selections, we were assigned to learn ETABS
         software right away through weekly meetings. As time progressed, we were
         assigned more mature roles of modelling the building on software and
@@ -61,7 +66,7 @@ const ShashankBlog = () => {
         On our success, we received appreciation from the HOD and our faculty
         advisor.
       </p>
-      <p>
+      <p className="text-lg">
         Now, it was the time for me to relax for some months since the autumn
         semester was not hectic in regard of the competition. During December,
         the communication regarding next edition of the competition had arrived.
@@ -77,8 +82,8 @@ const ShashankBlog = () => {
       </p>
 
       {/* Leadership Role */}
-      <h2>Leadership Role</h2>
-      <p>
+      <h2 className="text-xl font-semibold">Leadership Role</h2>
+      <p className="text-lg">
         During the next edition's preparations, I decided to take the leadership
         role. We held recruitments, worked on the design proposal, and
         kickstarted the work in the Spring semester of 2023. Intense
@@ -87,7 +92,7 @@ const ShashankBlog = () => {
         exams. After shipping the model, Divyansh and I flew to the USA for the
         competition.
       </p>
-      <p>
+      <p className="text-lg">
         We kickstarted the work with the beginning of Spring semester 2023, with
         a fun filled informal all team meet to formally welcome the new members
         and familiarize with each other. Me and the senior team members planned
@@ -129,8 +134,8 @@ const ShashankBlog = () => {
       </p>
 
       {/* San Francisco Experience */}
-      <h2>San Francisco Experience</h2>
-      <p>
+      <h2 className="text-xl font-semibold">San Francisco Experience</h2>
+      <p className="text-lg">
         We departed on 8th April from Mumbai. Upon reaching the skies of San
         Francisco, I was awed by the spectacular scenes offered by one of the
         most advanced parts of the world. The fact that it was my first visit
@@ -192,8 +197,8 @@ const ShashankBlog = () => {
       </p>
 
       {/* Takeaways and Learnings */}
-      <h2>My Takeaways and Learnings</h2>
-      <p>
+      <h2 className="text-xl font-semibold">My Takeaways and Learnings</h2>
+      <p className="text-lg">
         I would like to break this into two parts-technical and non-technical.
         Technically, I got exposed to the field of Earthquake Engineering. Which
         formed the major reason why I now appreciate earthquake resistant design
@@ -215,8 +220,8 @@ const ShashankBlog = () => {
       </p>
 
       {/* Who Should Join */}
-      <h2>Who Should Join?</h2>
-      <p>
+      <h2 className="text-xl font-semibold">Who Should Join?</h2>
+      <p className="text-lg">
         If you genuinely wish to explore the core field, I would strongly
         suggest you to join the team. The competition offers you a holistic
         package of experience valuable to both industry and research. The
@@ -225,13 +230,13 @@ const ShashankBlog = () => {
         your own hands, performing experiments, and researching on unexplored
         concepts & techniques to improve the ongoing practices.
       </p>
-      <p>
+      <p className="text-lg">
         If you commit to the team and create an impact during your presence, you
         can get a Letter of Recommendation from the faculty advisor, which will
         add value to your profile while applying for Masters or PhD in
         universities abroad.
       </p>
-      <p>
+      <p className="text-lg">
         But, even if you are not interested in higher studies or long-term
         commitment, you can choose to take up an interesting project
         contributing towards technical enhancement for the team, to show up on
@@ -239,8 +244,8 @@ const ShashankBlog = () => {
       </p>
 
       {/* Selection Process */}
-      <h2>Selection Process</h2>
-      <p>
+      <h2 className="text-xl font-semibold">Selection Process</h2>
+      <p className="text-lg">
         Of all the technical teams in the institute, you’ll find the most
         difficult to get yourself rejected here! Freshers are free to choose to
         volunteer anytime. There is a formal selection process in place
@@ -252,8 +257,10 @@ const ShashankBlog = () => {
       </p>
 
       {/* Fun */}
-      <h2>Fun: Make Different Poses to Take Photos with the Model!</h2>
-      <p>
+      <h2 className="text-xl font-semibold">
+        Fun: Make Different Poses to Take Photos with the Model!
+      </h2>
+      <p className="text-lg">
         I feel pride in leading the team in its building up phase and handing
         over at a progressed state to the future team.
       </p>
