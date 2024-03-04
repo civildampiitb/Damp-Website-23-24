@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import style from "../higherstudies.module.css";
 
 const HigherContent = () => {
   return (
     <div className={style.highercontent_main}>
       <div className={style.highercontent_heading}>
-        <p>Time Table</p>
+        <p>Timeline</p>
       </div>
       <div className={style.highercontent_a}>
         <p>
@@ -41,21 +41,21 @@ const HigherContent = () => {
           choice with such a score.
         </p>
         <p>
-          <span>October: </span>Having decided on the universities and this would
-          be a crucial phase for you, go through university websites and make a
-          document mentioning important information like Deadlines, Fees, SOPs
-          and recommendation requirements and any other relevant stuff. Once you
-          have decided on the universities it is good to start filling in the
-          forms as a major chunk of the questions are pretty standard and you
-          would not have to worry about them later on. Plus this gives you an
-          advantage in case some universities have any peculiar requirements.
+          <span>October: </span>Having decided on the universities and this
+          would be a crucial phase for you, go through university websites and
+          make a document mentioning important information like Deadlines, Fees,
+          SOPs and recommendation requirements and any other relevant stuff.
+          Once you have decided on the universities it is good to start filling
+          in the forms as a major chunk of the questions are pretty standard and
+          you would not have to worry about them later on. Plus this gives you
+          an advantage in case some universities have any peculiar requirements.
           Pay close attention to the deadlines as some universities will have
           Dec 1st as the deadline and you may have to speed up things for them.
         </p>
         <p>
-          <span>End October/November: </span>We strongly suggest to start writing
-          your SOPs when the month begins and have the first draft ready by the
-          end of first week. This would be helpful in two ways
+          <span>End October/November: </span>We strongly suggest to start
+          writing your SOPs when the month begins and have the first draft ready
+          by the end of first week. This would be helpful in two ways
           <div className={style.highercontent_a_a}>
             <ul>
               <li>
@@ -94,7 +94,7 @@ const HigherContent = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HigherContent;

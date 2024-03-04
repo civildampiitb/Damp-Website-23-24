@@ -5,14 +5,14 @@ import ThirdCourse from "../../../data/CourseReviewData/Third";
 import FourthCourse from "../../../data/CourseReviewData/Fourth";
 import InstituteElective from "../../../data/CourseReviewData/I";
 import DepartmentElective from "../../../data/CourseReviewData/D";
-import MinorCourse from "../../../data/CourseReviewData/M"
+import MinorCourse from "../../../data/CourseReviewData/M";
 import CourseReview from "./CourseReview";
 import OneCourseDefaultData from "../../../data/CourseReviewData/Default";
 
 const Coursename = () => {
   const uniqueCourseCodes = new Set();
 
-  const [selectedCourse, setSelectedCourse] = useState('');
+  const [selectedCourse, setSelectedCourse] = useState("");
 
   const handleCourseCodeClick = (courseCode) => {
     setSelectedCourse(courseCode);
@@ -25,7 +25,7 @@ const Coursename = () => {
       ...FourthCourse,
       ...InstituteElective,
       ...DepartmentElective,
-      ...MinorCourse
+      ...MinorCourse,
     ];
     return allCourses.filter(
       (review) => review["Course Code"] === selectedCourse
@@ -36,7 +36,7 @@ const Coursename = () => {
     <div className={style.course_main}>
       <div className={style.courseName}>
         <div className={style.course_data}>
-          <p>Second Year course</p>
+          <p>Second Year Courses</p>
           <div className={style.course_line}></div>
           <ul>
             {SecondCourse.map((review, index) => {
@@ -57,7 +57,7 @@ const Coursename = () => {
           </ul>
         </div>
         <div className={style.course_data}>
-          <p>Third Year course</p>
+          <p>Third Year Courses</p>
           <div className={style.course_line}></div>
           <ul>
             {ThirdCourse.map((review, index) => {
@@ -162,7 +162,7 @@ const Coursename = () => {
           </ul>
         </div>
       </div>
-      
+
       <div className={style.review_container}>
         <CourseReview selectedCourse={getCourseData(OneCourseDefaultData)} />
       </div>

@@ -25,7 +25,7 @@ const Secondreview = () => {
     <div className={style.course_main}>
       <div className={style.courseName}>
         <div className={style.course_data}>
-          <p>Second Year course</p>
+          <p>Second Year Courses</p>
           <div className={style.course_line}></div>
           <ul>
             {SecondCourse.map((review, index) => {

@@ -119,13 +119,13 @@ const Navbar = () => {
           }`}
         >
           <a href="https://civildampiitb.github.io/#/secondreview">
-            Second Year Course
+            Second Year Courses
           </a>
           <a href="https://civildampiitb.github.io/#/thirdreview">
-            Third Year Course
+            Third Year Courses
           </a>
           <a href="https://civildampiitb.github.io/#/fourthreview">
-            Fourth Year Course
+            Fourth Year Courses
           </a>
           <a href="https://civildampiitb.github.io/#/departmentreview">
             Department Review
