@@ -91,10 +91,13 @@ const Navbar = () => {
       "_blank"
     );
   };
-  
+
   const handleIntershipBlogNavigatoin = () => {
-    window.open("https://drive.google.com/file/d/12LDC5v3Uw6CI_KmcCErC1kt3yHRm7iGJ/view","_blank")
-  }
+    window.open(
+      "https://drive.google.com/file/d/12LDC5v3Uw6CI_KmcCErC1kt3yHRm7iGJ/view",
+      "_blank"
+    );
+  };
 
   return (
     <nav>
@@ -115,12 +118,24 @@ const Navbar = () => {
             courseReviewDropdownVisible ? "visible" : "hidden"
           }`}
         >
-          <a href="/secondreview">Second Year Course</a>
-          <a href="/thirdreview">Third Year Course</a>
-          <a href="/fourthreview">Fourth Year Course</a>
-          <a href="/departmentreview">Department Review</a>
-          <a href="/institutereview">Institute Review</a>
-          <a href="/minorreview">Minor Review</a>
+          <a href="https://civildampiitb.github.io/website/#/secondreview">
+            Second Year Course
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/thirdreview">
+            Third Year Course
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/fourthreview">
+            Fourth Year Course
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/departmentreview">
+            Department Review
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/institutereview">
+            Institute Review
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/minorreview">
+            Minor Review
+          </a>
         </div>
       </div>
 
@@ -138,9 +153,15 @@ const Navbar = () => {
             exploreDropdownVisible ? "visible" : "hidden"
           }`}
         >
-          <a href="/btr&dd">BTP & DD</a>
-          <a href="/internationexposer">International Exposer</a>
-          <a href="/higherstudies">Higher Studies</a>
+          <a href="https://civildampiitb.github.io/website/#/btr&dd">
+            BTP & DD
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/internationexposer">
+            International Exposer
+          </a>
+          <a href="https://civildampiitb.github.io/website/#/higherstudies">
+            Higher Studies
+          </a>
         </div>
       </div>
 

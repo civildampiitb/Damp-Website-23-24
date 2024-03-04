@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../component/../about.module.css";
 import data from "../../../data/photodata";
-
+import sunandinee from "../../../assets/image-2.png";
 const FrontCard = () => {
   return (
     <div>
@@ -9,11 +9,7 @@ const FrontCard = () => {
       <p className={style.card_heading}>D-AMP Coordinators</p>
       <div className={style.card_list}>
         <div className={style.card}>
-          <img
-              src="https://civildampiitb.github.io/images/croppednew/IMG_0070.jpeg"
-              alt="Profile"
-              className={style.profile_image}
-            />
+          <img src={sunandinee} alt="Profile" className={style.profile_image} />
           <div className={style.card_content}>
             <p className={style.name}>Sunandinee Mehra</p>
             <p className={style.position_name}>D-AMP Coordinators</p>

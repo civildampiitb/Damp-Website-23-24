@@ -38,38 +38,44 @@ const HOME = () => {
           <Explore />
         </div>
         <div>
-        <div className={styles_faqs.faqs_home_main}>
-          <div className={styles_faqs.faqs_main_text}>
-            <p>Frequently Asked Questions</p>
-          </div>
-          <ul className={styles_faqs.faqs_list}>
-            {displayedfaqs.map((faq) => (
-              <div>
-                <div className={styles_faqs.faqs_underline}></div>
-                <li
-                  key={faq.id}
-                  className={`faqItem ${activeFaq === faq.id ? "active" : ""}`}
-                >
-                  <p
-                    onClick={() => toggleFaq(faq.id)}
-                    className={styles_faqs.faqs_question_text}
+          <div className={styles_faqs.faqs_home_main}>
+            <div className={styles_faqs.faqs_main_text}>
+              <p>Frequently Asked Questions</p>
+            </div>
+            <ul className={styles_faqs.faqs_list}>
+              {displayedfaqs.map((faq) => (
+                <div>
+                  <div className={styles_faqs.faqs_underline}></div>
+                  <li
+                    key={faq.id}
+                    className={`faqItem ${
+                      activeFaq === faq.id ? "active" : ""
+                    }`}
                   >
-                    {faq.question}
-                    <FontAwesomeIcon
-                      icon={activeFaq === faq.id ? faChevronUp : faChevronDown}
-                    />
-                  </p>
-                  {activeFaq === faq.id && (
-                    <p className={styles_faqs.faqs_answer}>{faq.answer}</p>
-                  )}
-                </li>
-              </div>
-            ))}
-          </ul>
-          <div className={styles_faqs.faqs_underline}></div>
-          <a className={style.faqs_more} href="/faaqs">More...</a>
+                    <p
+                      onClick={() => toggleFaq(faq.id)}
+                      className={styles_faqs.faqs_question_text}
+                    >
+                      {faq.question}
+                      <FontAwesomeIcon
+                        icon={
+                          activeFaq === faq.id ? faChevronUp : faChevronDown
+                        }
+                      />
+                    </p>
+                    {activeFaq === faq.id && (
+                      <p className={styles_faqs.faqs_answer}>{faq.answer}</p>
+                    )}
+                  </li>
+                </div>
+              ))}
+            </ul>
+            <div className={styles_faqs.faqs_underline}></div>
+            <a className={style.faqs_more} href="/faaqs">
+              More...
+            </a>
+          </div>
         </div>
-      </div>
         <div>
           <Youtube />
         </div>
