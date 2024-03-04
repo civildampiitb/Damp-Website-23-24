@@ -26,19 +26,19 @@ import PraptiBlog from "./pages/Btp&dd/Component/PraptiBlog";
 import Mobile from "./pages/Mobile/Mobile";
 
 function App() {
-  // const [isMobile, setisMobile] = useState(window.innerWidth < 900);
+  const [isMobile, setisMobile] = useState(window.innerWidth < 900);
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setisMobile(window.innerWidth < 900);
-  //   };
+  useEffect(() => {
+    const handleResize = () => {
+      setisMobile(window.innerWidth < 900);
+    };
 
-  //   window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize);
 
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <>
