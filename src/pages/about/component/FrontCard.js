@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../component/../about.module.css";
 import data from "../../../data/photodata";
-import sunandinee from "../../../assets/image-2.png";
+import sunandinee from "../../../assets/sunandinee.jpeg";
 const FrontCard = () => {
   return (
     <div>

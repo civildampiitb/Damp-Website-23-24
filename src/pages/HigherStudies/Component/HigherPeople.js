@@ -7,7 +7,9 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const HigherPeople = () => {
   return (
     <div className={style.higherpeople_main}>
-    <div className={style.higherpeople_main_heading}><p>Allum Pursuing Higher Studies</p></div>
+      <div className={style.higherpeople_main_heading}>
+        <p>Alumni Pursuing Higher Studies</p>
+      </div>
       <div className={style.higherpeople_table}>
         <table>
           <thead>
@@ -28,7 +30,11 @@ const HigherPeople = () => {
                 <td>{profile.education.institution}</td>
                 <td>{profile.education.admission_year}</td>
                 <td>{profile.education.field}</td>
-                <td><a href={profile.linkedin}><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></td>
+                <td>
+                  <a href={profile.linkedin}>
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                  </a>
+                </td>
               </tr>
             ))}
           </tbody>

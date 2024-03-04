@@ -6,7 +6,7 @@ const HigherStudiesContent = [
       degree: "PhD",
       institution: "University of Cambridge",
       admission_year: 2023,
-      field: "EnvGeo",
+      field: "Environmental Geotech",
       linkedin: "",
     },
   },
@@ -18,7 +18,7 @@ const HigherStudiesContent = [
       institution: "Stanford University",
       admission_year: 2021,
       field: "Mechanical Engineering (Numerical Analysis and Estimation)",
-      linkedin: ""
+      linkedin: "",
     },
   },
   {
@@ -52,7 +52,7 @@ const HigherStudiesContent = [
       field: "Sustainable Urban Mobility Transitions",
       institution: "KTH/UPC",
       admission_year: 2022,
-      linkedin: ""
+      linkedin: "",
     },
   },
 ];

@@ -118,22 +118,22 @@ const Navbar = () => {
             courseReviewDropdownVisible ? "visible" : "hidden"
           }`}
         >
-          <a href="https://civildampiitb.github.io/website/#/secondreview">
+          <a href="https://civildampiitb.github.io/#/secondreview">
             Second Year Course
           </a>
-          <a href="https://civildampiitb.github.io/website/#/thirdreview">
+          <a href="https://civildampiitb.github.io/#/thirdreview">
             Third Year Course
           </a>
-          <a href="https://civildampiitb.github.io/website/#/fourthreview">
+          <a href="https://civildampiitb.github.io/#/fourthreview">
             Fourth Year Course
           </a>
-          <a href="https://civildampiitb.github.io/website/#/departmentreview">
+          <a href="https://civildampiitb.github.io/#/departmentreview">
             Department Review
           </a>
-          <a href="https://civildampiitb.github.io/website/#/institutereview">
+          <a href="https://civildampiitb.github.io/#/institutereview">
             Institute Review
           </a>
-          <a href="https://civildampiitb.github.io/website/#/minorreview">
+          <a href="https://civildampiitb.github.io/#/minorreview">
             Minor Review
           </a>
         </div>
@@ -153,13 +153,11 @@ const Navbar = () => {
             exploreDropdownVisible ? "visible" : "hidden"
           }`}
         >
-          <a href="https://civildampiitb.github.io/website/#/btr&dd">
-            BTP & DD
+          <a href="https://civildampiitb.github.io/#/btr&dd">BTP & DD</a>
+          <a href="https://civildampiitb.github.io/#/internationexposer">
+            International Exposure
           </a>
-          <a href="https://civildampiitb.github.io/website/#/internationexposer">
-            International Exposer
-          </a>
-          <a href="https://civildampiitb.github.io/website/#/higherstudies">
+          <a href="https://civildampiitb.github.io/#/higherstudies">
             Higher Studies
           </a>
         </div>
@@ -172,7 +170,7 @@ const Navbar = () => {
         onMouseLeave={hideImportantDropdown}
       >
         <p>
-          Important Link
+          Important Links
           <FontAwesomeIcon className="icon" icon={faCaretDown} />
         </p>
         <div
@@ -180,7 +178,7 @@ const Navbar = () => {
             importantDropdownVisible ? "visible" : "hidden"
           }`}
         >
-          <p onClick={handleCircularNavigation}>Circular</p>
+          <p onClick={handleCircularNavigation}>Circulars</p>
           <p onClick={handleHolidayNavigation}>List of Holidays</p>
           <p onClick={handleTimeTableNavigation}>Time Tables</p>
           <p onClick={handleAcademicCalendarNavigation}>Academic Calendar</p>
