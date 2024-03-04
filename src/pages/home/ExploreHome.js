@@ -10,7 +10,7 @@ const Explore = () => {
   };
 
   const handleinternationsection = () => {
-    navigate("/internationexposer");
+    navigate("/international-exposure");
   };
 
   const handleHigherStudies = () => {
