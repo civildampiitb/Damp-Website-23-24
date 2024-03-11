@@ -6,7 +6,7 @@ const Explore = () => {
   const navigate = useNavigate();
 
   const handlebtrhistory = () => {
-    navigate("/btr&dd");
+    navigate("/btp-dd");
   };
 
   const handleinternationsection = () => {
@@ -14,7 +14,7 @@ const Explore = () => {
   };
 
   const handleHigherStudies = () => {
-    navigate("/higherstudies");
+    navigate("/higher-studies");
   };
 
   return (
