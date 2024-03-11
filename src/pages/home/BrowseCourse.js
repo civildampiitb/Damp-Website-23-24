@@ -1,12 +1,12 @@
 import React from "react";
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import style from "./home.module.css";
 
 const BrowseCourse = () => {
   const navigate = useNavigate();
 
   const handleCoreCourse = () => {
-    navigate("/secondreview");
+    navigate("https://civildampiitb.github.io/#/secondreview");
   };
 
   const handleDepartment = () => {
@@ -23,16 +23,22 @@ const BrowseCourse = () => {
   return (
     <div className={style.browse_course}>
       <div className={style.browse_course_text}>
-        <p>Browse Courses...</p>
+        <p>Browse Course Reviews</p>
       </div>
       <div className={style.browse_course_container}>
-        <div onClick={handleCoreCourse} className={style.browse_course_detail}>
+        <a
+          href="https://civildampiitb.github.io/#/secondreview"
+          className={style.browse_course_detail}
+        >
           <div className={style.browse_course_detail_background}>
             <p>CC</p>
           </div>
           <p className={style.browse_course_text_a}>Core Course</p>
-        </div>
-        <div onClick={handleDepartment} className={style.browse_course_detail}>
+        </a>
+        <a
+          href="https://civildampiitb.github.io/#/departmentreview"
+          className={style.browse_course_detail}
+        >
           <div className={style.browse_course_detail_background}>
             <p>DE</p>
           </div>
@@ -42,22 +48,25 @@ const BrowseCourse = () => {
           >
             Department Elective
           </p>
-        </div>
-        <div
-          onClick={handleInstitutecourse}
+        </a>
+        <a
+          href="https://civildampiitb.github.io/#/institutereview"
           className={style.browse_course_detail}
         >
           <div className={style.browse_course_detail_background}>
             <p>IE</p>
           </div>
           <p className={style.browse_course_text_a}>Institute Elective</p>
-        </div>
-        <div onClick={handleMinorCourse} className={style.browse_course_detail}>
+        </a>
+        <a
+          href="https://civildampiitb.github.io/#/minorreview"
+          className={style.browse_course_detail}
+        >
           <div className={style.browse_course_detail_background}>
             <p>M</p>
           </div>
           <p className={style.browse_course_text_a}>Minor</p>
-        </div>
+        </a>
       </div>
     </div>
   );

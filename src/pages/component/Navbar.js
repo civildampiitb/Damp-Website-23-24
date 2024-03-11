@@ -153,11 +153,11 @@ const Navbar = () => {
             exploreDropdownVisible ? "visible" : "hidden"
           }`}
         >
-          <a href="https://civildampiitb.github.io/#/btr&dd">BTP & DD</a>
+          <a href="https://civildampiitb.github.io/#/btp-dd">BTP & DD</a>
           <a href="https://civildampiitb.github.io/#/international-exposure">
             International Exposure
           </a>
-          <a href="https://civildampiitb.github.io/#/higherstudies">
+          <a href="https://civildampiitb.github.io/#/higher-studies">
             Higher Studies
           </a>
         </div>

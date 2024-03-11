@@ -67,8 +67,8 @@ function App() {
             <Route exact path="/about" element={<About />} />
             <Route exact path="/faaqs" element={<Faaqs />} />
             <Route exact path="/explore" element={<Explore />} />
-            <Route exact path="/higherstudies" element={<HigherStudies />} />
-            <Route exact path="/btr&dd" element={<Btpdd />} />
+            <Route exact path="/higher-studies" element={<HigherStudies />} />
+            <Route exact path="/btp-dd" element={<Btpdd />} />
             <Route exact path="/praptiblog" element={<PraptiBlog />} />
             <Route exact path="/alakhblog" element={<AlakhBlog />} />
             <Route exact path="/ishitablog" element={<IshitaBlog />} />

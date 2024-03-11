@@ -19,20 +19,25 @@ const Faaqs = () => {
       <ul className={style.faqs_list}>
         {faqsData.map((faq) => (
           <div>
-          <div className={style.faqs_underline}></div>
+            <div className={style.faqs_underline}></div>
             <li
               key={faq.id}
               className={`faqItem ${activeFaq === faq.id ? "active" : ""}`}
             >
-              <p onClick={() => toggleFaq(faq.id)} className={style.faqs_question_text}>
+              <p
+                onClick={() => toggleFaq(faq.id)}
+                className={style.faqs_question_text}
+              >
                 {faq.question}
                 <FontAwesomeIcon
                   icon={activeFaq === faq.id ? faChevronUp : faChevronDown}
                 />
               </p>
-              {activeFaq === faq.id && <p className={style.faqs_answer}>{faq.answer}</p>}
+              {activeFaq === faq.id && (
+                <p className={style.faqs_answer}>{faq.answer}</p>
+              )}
             </li>
-            </div>
+          </div>
         ))}
       </ul>
       <div className={style.faqs_underline}></div>
