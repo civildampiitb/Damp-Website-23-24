@@ -71,7 +71,7 @@ const HOME = () => {
               ))}
             </ul>
             <div className={styles_faqs.faqs_underline}></div>
-            <a className={style.faqs_more} href="/faaqs">
+            <a className={style.faqs_more} href="#/faaqs">
               More...
             </a>
           </div>
